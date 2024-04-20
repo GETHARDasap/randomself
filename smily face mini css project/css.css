@@ -1,0 +1,64 @@
+#skin{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(244, 188, 197);
+    border-radius: 50%;
+}
+
+.mouth{
+    width: 200px;
+    height: 75px;
+    background-color: hotpink;
+    border-radius: 0px 0px 50px 50px;
+    position: absolute;
+    top: 270px;
+    left: 110px;
+}
+
+.left, .right{
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+    display:inline-block;
+    position: absolute;
+    left: 105px;
+    top: 50px;
+}
+.right{
+     left: 230px;
+}
+
+.le, .ri{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display:inline-block;
+    position: absolute;
+    left: 135px;
+    top: 50px;
+}
+.ri{
+     left: 259px;
+
+}
+
+.lef, .rig{
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(255, 95, 121);
+    display:inline-block;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+}
+.rig{
+     left: 290px;
+
+}
+
